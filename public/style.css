@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+.game {
+  width: 100%;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+}
+
+.letter {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  margin: 3px;
+  text-align: center;
+  padding-top: 11px;
+  font-size: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.letter:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.1);
+  transform: scale (1.1);
+}
+
+#keyboard-cont {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  display: flex;
+}
+
+.second-row {
+  margin: 0.5rem 0;
+}
+
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
